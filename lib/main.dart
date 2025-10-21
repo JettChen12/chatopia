@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'app_view.dart';
+import 'app/app_view.dart';
 
 void main() {
   Bloc.observer = const AppBlocObserver();

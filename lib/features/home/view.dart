@@ -18,16 +18,8 @@ class HomePage extends StatelessWidget {
 
   Widget _buildPage(BuildContext context) {
     final HomeBloc bloc = BlocProvider.of<HomeBloc>(context);
-    return Scaffold(
-      bottomNavigationBar: ConvexAppBar(
-        initialActiveIndex: 1,
-        items: [
-          TabItem(icon: Icons.add, title: 'Add'),
-          TabItem(icon: Icons.chat_bubble_outline, title: 'Home'),
-          TabItem(icon: Icons.people, title: 'Profile'),
-        ],
-        onTap: (int i) => print('click index=$i'),
-      ),
+    return Container(
+      child: Center(child: Text('Home', style: TextStyle(fontSize: 20,color: Colors.blue))),
     );
   }
 }
