@@ -54,7 +54,8 @@ class _SettingsPageState extends State<SettingsPage> {
       color: theme.surface,
       child: Column(
         children: [
-          const SizedBox(height: 100),
+          // 获取手机顶部状态栏高度
+          SizedBox(height: MediaQuery.of(context).padding.top),
           // DART MODE
           Container(
             height: 60,
