@@ -22,7 +22,7 @@ dependencies:
   # 列表
   scrollview_observer: ^1.26.2
   # 聊天底部资源
-  chat_bottom_container: ^0.4.0
+#  chat_bottom_container: ^0.4.0
   # 反序列化
   freezed_annotation: ^3.1.0
   json_annotation: ^4.9.0
@@ -30,6 +30,8 @@ dependencies:
   extended_text_field: ^16.0.2
   # 底部导航
   convex_bottom_bar: ^3.2.0
+  # 主题
+  adaptive_theme: ^3.7.2
 
 dev_dependencies:
   flutter_test:

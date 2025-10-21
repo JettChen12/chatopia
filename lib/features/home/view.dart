@@ -1,3 +1,4 @@
+import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -18,8 +19,12 @@ class HomePage extends StatelessWidget {
 
   Widget _buildPage(BuildContext context) {
     final HomeBloc bloc = BlocProvider.of<HomeBloc>(context);
-    return Container(
-      child: Center(child: Text('Home', style: TextStyle(fontSize: 20,color: Colors.blue))),
+    final ColorScheme theme = AdaptiveTheme.of(context).theme.colorScheme;
+    return ColoredBox(
+      color: theme.surface,
+      child: const Center(
+        child: Text('Home', style: TextStyle(fontSize: 20, color: Colors.blue)),
+      ),
     );
   }
 }

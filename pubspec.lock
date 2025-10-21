@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "85.0.0"
+  adaptive_theme:
+    dependency: "direct main"
+    description:
+      name: adaptive_theme
+      sha256: "5caccff82e40ef6d3ebb28caaa091ab1865b0e35bd2ab2ddccf49cd336331012"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.7.2"
   analyzer:
     dependency: transitive
     description:
@@ -193,14 +201,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
-  chat_bottom_container:
-    dependency: "direct main"
-    description:
-      name: chat_bottom_container
-      sha256: "29c99d930d619383f4bfbdb6e802d173b5bf68ec81cf5d2e0aaba93f441770e8"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.0"
   checked_yaml:
     dependency: transitive
     description:
