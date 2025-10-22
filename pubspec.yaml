@@ -32,6 +32,8 @@ dependencies:
   convex_bottom_bar: ^3.2.0
   # 主题
   adaptive_theme: ^3.7.2
+  # 日志
+  logger: ^2.6.2
 
 dev_dependencies:
   flutter_test:
