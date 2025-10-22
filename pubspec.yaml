@@ -34,6 +34,11 @@ dependencies:
   adaptive_theme: ^3.7.2
   # 日志
   logger: ^2.6.2
+  # 语言模型
+  langchain: ^0.8.0+1
+  langchain_community: ^0.4.0+1
+  langchain_ollama: ^0.4.0+1
+  langchain_openai: ^0.8.0+1
 
 dev_dependencies:
   flutter_test:
